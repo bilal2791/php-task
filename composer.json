@@ -12,7 +12,9 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "stripe/stripe-php": "^7.110",
+        "twbs/bootstrap": "4.0.0"
     },
     "autoload": {
         "files": [ "flight/autoload.php", "flight/Flight.php" ]
